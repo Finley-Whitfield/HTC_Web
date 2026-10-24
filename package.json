@@ -2,10 +2,11 @@
   "name": "hemsworth-town-council",
   "version": "1.0.0",
   "private": true,
+  "main": "main.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "node main.js",
     "lint": "tsc --noEmit"
   },
   "dependencies": {
