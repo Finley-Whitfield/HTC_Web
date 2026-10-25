@@ -10,7 +10,7 @@ Install dependencies with `npm install`, then start the development server with 
 
 Use Node.js 20 LTS or newer on the server. On Wispbyte, select Node 20 in the server's startup/runtime settings and set the JavaScript file (`JS_FILE`) to `main.js`. Upload the full project (including `app`, `styles.css`, `package.json` and `package-lock.json`), not just the entry-point file.
 
-The panel can install dependencies with `npm install` and then run `node main.js`. If the `.next/BUILD_ID` production build is missing, `main.js` runs `next build` automatically before starting the HTTP server. To build manually instead:
+The panel can install dependencies with `npm install` and then run `node main.js`. If the `.next/BUILD_ID` production build is missing or older than the site files, `main.js` runs `next build` automatically before starting the HTTP server. This ensures updated images and styles are included after a deployment. Next.js is configured to use one build worker to reduce CPU spikes on limited hosting; builds will take longer as a result. To build manually instead:
 
 ```sh
 npm ci
