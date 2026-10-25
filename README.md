@@ -20,6 +20,10 @@ npm start
 
 `main.js` is the production entry point configured in `package.json`. It serves the built Next.js site on `0.0.0.0:3000` by default so it can be reached through the server's network interface. Configure `PORT` and optionally `HOST` in the server environment to change the listening port or address. Keep the generated `.next` directory between restarts to avoid rebuilding. Run the process under your server's process manager and place a TLS-enabled reverse proxy in front of it for public HTTPS access.
 
+## Changing the homepage banner photo
+
+Put the image in `public/images/` and reference it in `styles.css` with a root-relative URL, for example `url("/images/Hemsworth_Center.jpg")`. The banner photo must be in `public`; Next.js does not serve files directly from the project-root `pics` folder. Commit and push both the image and the CSS change.
+
 ## Council information
 
 The site includes dedicated pages for council services, local facilities, councillors, meetings, finance, documents, news and contact information. Council reference documents and downloadable files are linked from the council’s published archive at [hemsworthcouncil.co.uk](https://www.hemsworthcouncil.co.uk); those links remain hosted by the council. Opening hours, fees, meeting dates and notices can change, so confirm time-sensitive information with the council.

@@ -46,7 +46,7 @@ button { color: inherit; }
 
 .hero { position: relative; height: min(780px, 94svh); min-height: 620px; overflow: hidden; background: var(--navy); color: white; }
 .hero-image, .hero-grain { position: absolute; inset: 0; }
-.hero-image { background: linear-gradient(90deg, #0b132be8 0%, #0b132b9c 40%, #0b132b20 100%), linear-gradient(0deg, #0b132b7d, transparent 30%), url("pics/Hemsworth_Center.jpg") center 48% / cover; }
+.hero-image { background: linear-gradient(90deg, #0b132be8 0%, #0b132b9c 40%, #0b132b20 100%), linear-gradient(0deg, #0b132b7d, transparent 30%), url("/images/Hemsworth_Center.jpg") center 48% / cover; }
 .hero-grain { pointer-events: none; opacity: .1; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.3'/%3E%3C/svg%3E"); mix-blend-mode: soft-light; }
 .hero-content { position: absolute; top: 50%; left: var(--gutter); transform: translateY(-39%); max-width: 980px; }
 .eyebrow { margin: 0; display: flex; align-items: center; gap: 11px; color: #657080; font-size: 9px; font-weight: 700; letter-spacing: .19em; text-transform: uppercase; }
