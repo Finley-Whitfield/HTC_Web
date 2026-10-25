@@ -1112,34 +1112,21 @@ const pageAliases: Record<string, string> = {
   queen: "queen-elizabeth-ii",
 };
 
-const allSlugs = [
-  ...Object.keys(pages),
-  "agendas-minutes",
-  "contact-us",
-  "policies-statements",
-  "accessibility-issue-form",
-  "vacancies",
-  "committee-structure",
-  "committee-timetable",
-  "allotments",
-  "football-facilities",
-  "fitzwilliam-centre",
-  "hemsworth-town-council-facebook",
-  "corrections",
-  "wakefield-district-council-local-plan-2036",
-  "privacy-policy",
-  "newsletters",
-  "gallery",
-  "thursday-12th-november-2026",
-  "christmas-bingo-brass-band-evening-2026",
-  "job-vacancies",
-  "queen",
+const preRenderedSlugs = [
+  "about",
+  "council",
+  "councillors",
+  "services",
+  "meetings",
+  "news",
+  "documents",
+  "contact",
 ];
 
 const resolvePage = (slug: string) => pages[pageAliases[slug] ?? slug];
 
 export function generateStaticParams() {
-  return [...new Set(allSlugs)].map((slug) => ({ slug }));
+  return preRenderedSlugs.map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({
