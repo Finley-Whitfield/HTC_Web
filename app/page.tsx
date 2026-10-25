@@ -242,7 +242,7 @@ function HeroBackground() {
     <motion.div
       className="hero-image"
       role="img"
-      aria-label="Open green countryside in the Yorkshire landscape"
+      aria-label="Hemsworth Community Centre"
       style={reducedMotion ? undefined : { y }}
       initial={reducedMotion ? false : { scale: 1.09 }}
       animate={{ scale: 1.025 }}
@@ -376,7 +376,7 @@ export default function HomePage() {
             <div className="heading-aside"><p>Find local facilities, community groups and events published by the Town Council.</p>            <a className="text-link" href="/news">Local events &amp; services <span aria-hidden="true">↗</span></a></div>
           </div>
           <div className="event-feature">
-            <div className="event-photo photo-event" role="img" aria-label="People gathering outdoors at a community celebration" />
+            <div className="event-photo photo-event" role="img" aria-label="Families enjoying the boating lake at Hemsworth Water Park" />
             <div className="event-overlay" />
             <div className="event-feature-content">
               <span className="tag tag-green">TOWN COUNCIL FACILITIES</span>
@@ -415,7 +415,7 @@ export default function HomePage() {
         </section>
 
         <section className="explore" id="explore">
-          <div className="explore-image" role="img" aria-label="Woodland path through the Yorkshire countryside" />
+          <div className="explore-image" role="img" aria-label="Boating lake and parkland at Hemsworth Water Park" />
           <motion.div className="explore-content" id="facilities" {...reveal}>
             <p className="eyebrow light"><span className="eyebrow-line" /> Local services</p>
             <h2>Explore your<br />local facilities.</h2>
@@ -437,7 +437,7 @@ export default function HomePage() {
             <div className="heading-aside"><p>Recent notices and events from Hemsworth Town Council. Follow the links for full details and updates.</p><a className="text-link" href="/news">All news &amp; updates <span aria-hidden="true">↗</span></a></div>
           </div>
           <a className="story-feature" href={latestUpdates[1].href}>
-            <div className="story-photo photo-story" role="img" aria-label="Sunlight over a green local park" />
+            <div className="story-photo photo-story" role="img" aria-label="Hemsworth Community Centre" />
             <div className="story-copy"><span className="story-category">COMMUNITY EVENT <i /> 7 OCTOBER 2026</span><h3>Christmas Bingo<br />&amp; Brass Band.</h3><p>Tickets for the 2026 Christmas event go on sale at the Community Centre on 19 November.</p><span className="story-read">View the notice <b aria-hidden="true">↗</b></span></div>
           </a>
           <div className="story-bottom" id="news">
@@ -541,7 +541,7 @@ export default function HomePage() {
         </section>
 
         <section className="contact-section" id="contact">
-          <div className="contact-image" role="img" aria-label="Evening light across the Yorkshire countryside" />
+          <div className="contact-image" role="img" aria-label="Hemsworth Community Centre" />
           <div className="contact-content section-wrap">
             <motion.div className="contact-copy" {...reveal}><p className="eyebrow light"><span className="eyebrow-line" /> Hemsworth Town Council</p><h2>Get in touch<br />with your local<br /><span>council team.</span></h2><a className="button button-light" href="mailto:webenquiry@hemsworthcouncil.co.uk">Email the council <span aria-hidden="true">↗</span></a></motion.div>
             <motion.div className="contact-info" {...reveal}>
@@ -561,6 +561,11 @@ export default function HomePage() {
           <p>Hemsworth · Fitzwilliam · Kinsley<br /><span>Your Town Council</span></p>
           <div className="footer-links"><a href="/news">Latest news</a><a href="/meetings">Meetings</a><a href="/documents">Documents</a><a href="/contact">Contact</a></div>
         </div>
+        <p className="photo-credit">
+          Hemsworth Water Park photo by Carol Walker via{" "}
+          <a href="https://commons.wikimedia.org/wiki/File:Hemsworth_Water_Park_-_geograph.org.uk_-_2361968.jpg" target="_blank" rel="noreferrer">Geograph / Wikimedia Commons</a>, licensed under{" "}
+          <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noreferrer">CC BY-SA 2.0</a>. Community Centre photo provided by the site owner.
+        </p>
         <div className="footer-bottom"><span>HEMSWORTH TOWN COUNCIL</span><span>Hemsworth · Fitzwilliam · Kinsley</span><a href="#home">BACK TO TOP ↑</a></div>
       </footer>
     </>

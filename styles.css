@@ -101,7 +101,7 @@ button { color: inherit; }
 .heading-aside p { margin: 0 0 18px; color: #687080; font-size: 12px; line-height: 1.75; }
 .heading-aside .text-link { font-size: 9px; }
 .event-feature { position: relative; height: 410px; overflow: hidden; background: var(--navy-soft); color: white; }
-.photo-event { background-image: url("https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1800&q=85"); }
+.photo-event { background-image: url("/images/hemsworth-water-park.jpg"); }
 .event-photo { position: absolute; inset: 0; background-position: center 42%; background-size: cover; transition: transform .8s cubic-bezier(.2,.7,.2,1); }
 .event-feature:hover .event-photo { transform: scale(1.035); }
 .event-overlay { position: absolute; inset: 0; background: linear-gradient(90deg, #0b132be8 0%, #0b132b72 49%, #0b132b00 100%), linear-gradient(0deg, #0b132b88, transparent 40%); }
@@ -123,7 +123,7 @@ button { color: inherit; }
 .tile-arrow { margin-left: auto; color: var(--blue); }
 
 .explore { position: relative; min-height: 600px; overflow: hidden; background: var(--navy); color: white; }
-.explore-image { position: absolute; inset: 0 0 0 43%; background: linear-gradient(90deg, var(--navy), #0b132b08 70%), linear-gradient(0deg, #0b132b60, transparent 45%), url("https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1800&q=85") center / cover; }
+.explore-image { position: absolute; inset: 0 0 0 43%; background: linear-gradient(90deg, var(--navy), #0b132b08 70%), linear-gradient(0deg, #0b132b60, transparent 45%), url("/images/hemsworth-water-park.jpg") center / cover; }
 .explore-content { position: relative; z-index: 1; width: min(630px, 60%); padding: 80px 0 76px var(--gutter); }
 .explore-content h2 { margin: 29px 0 15px; font-family: var(--serif); font-size: clamp(49px, 6vw, 78px); font-weight: 600; letter-spacing: -.075em; line-height: .99; }
 .explore-content>p:not(.eyebrow) { max-width: 360px; color: #c4cddd; font-size: 12px; line-height: 1.75; }
@@ -137,7 +137,7 @@ button { color: inherit; }
 .stories-section { padding-top: 112px; padding-bottom: 112px; }
 .story-feature { min-height: 384px; display: grid; grid-template-columns: 1.25fr 1fr; background: white; }
 .story-photo { min-height: 340px; background-size: cover; background-position: center; }
-.photo-story { background-image: url("https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=1200&q=85"); }
+.photo-story { background-image: url("/images/Hemsworth_Center.jpg"); }
 .story-copy { padding: clamp(28px, 5vw, 68px); display: flex; flex-direction: column; align-items: flex-start; }
 .story-category { display: flex; align-items: center; gap: 8px; color: #7b8493; font-size: 7px; font-weight: 700; letter-spacing: .12em; }
 .story-category i { width: 4px; height: 4px; border-radius: 50%; background: var(--green); }
@@ -165,9 +165,9 @@ button { color: inherit; }
 .project-card { position: relative; min-height: 340px; padding: 22px; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; background-color: #26314d; background-size: cover; background-position: center; isolation: isolate; transition: transform .25s; }
 .project-card::before { z-index: -1; position: absolute; inset: 0; content: ""; background: linear-gradient(0deg, #0b132bee 0%, #0b132b3d 70%, #0b132b35); }
 .project-card:hover { transform: translateY(-5px); }
-.project-one { background-image: url("https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=80"); }
-.project-two { background-image: url("https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=900&q=80"); }
-.project-three { background-image: url("https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=80"); }
+.project-one { background-image: url("/images/Hemsworth_Center.jpg"); }
+.project-two { background-image: url("/images/hemsworth-water-park.jpg"); }
+.project-three { background-image: url("/images/Hemsworth_Center.jpg"); }
 .project-count { color: #e1e6ef; font-size: 8px; letter-spacing: .13em; }
 .project-status { display: inline-flex; align-items: center; gap: 7px; color: #e1e6ef; font-size: 7px; letter-spacing: .1em; }
 .project-status i { width: 5px; height: 5px; border-radius: 50%; background: var(--green); }
@@ -233,7 +233,7 @@ button { color: inherit; }
 .services-list b { grid-column: 3; grid-row: 1 / span 2; color: var(--blue); font-size: 14px; }
 
 .contact-section { position: relative; min-height: 445px; overflow: hidden; background: var(--navy); color: white; }
-.contact-image { position: absolute; inset: 0; background: linear-gradient(90deg, #0b132be8, #0b132b83 66%, #0b132b65), url("https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1900&q=85") center 52% / cover; }
+.contact-image { position: absolute; inset: 0; background: linear-gradient(90deg, #0b132be8, #0b132b83 66%, #0b132b65), url("/images/Hemsworth_Center.jpg") center 52% / cover; }
 .contact-content { position: relative; display: grid; grid-template-columns: 1.2fr .8fr; align-items: end; gap: 60px; padding-top: 70px; padding-bottom: 68px; }
 .contact-copy h2 { margin: 23px 0 23px; font-family: var(--serif); font-size: clamp(41px, 5vw, 63px); font-weight: 600; letter-spacing: -.075em; line-height: 1.04; }
 .contact-copy h2 span { color: var(--green); }
@@ -255,6 +255,8 @@ button { color: inherit; }
 .footer-links a:hover { color: var(--green); }
 .footer-bottom { padding-top: 15px; display: flex; justify-content: space-between; border-top: 1px solid #ffffff30; color: #9ba6b9; font-size: 7px; letter-spacing: .13em; }
 .footer-bottom a { color: white; }
+.photo-credit { margin: 0 0 14px; color: #9ba6b9; font-size: 9px; line-height: 1.6; letter-spacing: normal; }
+.photo-credit a { color: #fff; text-decoration: underline; text-underline-offset: 2px; }
 
 @media (min-width: 1500px) {
   :root { --gutter: max(116px, calc((100vw - 1280px)/2)); }
@@ -326,7 +328,7 @@ button { color: inherit; }
   .event-tiles { grid-template-columns: 1fr; gap: 7px; }
   .event-tile { min-height: 68px; padding: 12px; }
   .explore { min-height: auto; }
-  .explore-image { inset: 0; background-image: linear-gradient(90deg, #0b132be8, #0b132b80), linear-gradient(0deg, var(--navy), transparent 80%), url("https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1100&q=80"); background-position: center; }
+  .explore-image { inset: 0; background-image: linear-gradient(90deg, #0b132be8, #0b132b80), linear-gradient(0deg, var(--navy), transparent 80%), url("/images/hemsworth-water-park.jpg"); background-position: center; }
   .explore-content { width: 100%; padding: 62px var(--gutter) 65px; }
   .explore-content h2 { font-size: 56px; }
   .explore-coordinates { right: var(--gutter); bottom: 19px; font-size: 7px; }

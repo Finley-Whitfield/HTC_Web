@@ -24,6 +24,8 @@ npm start
 
 Put the image in `public/images/` and reference it in `styles.css` with a root-relative URL, for example `url("/images/Hemsworth_Center.jpg")`. The banner photo must be in `public`; Next.js does not serve files directly from the project-root `pics` folder. Commit and push both the image and the CSS change.
 
+Homepage backgrounds now use photos of Hemsworth Community Centre and Hemsworth Water Park. The Water Park photo is by Carol Walker via [Geograph / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hemsworth_Water_Park_-_geograph.org.uk_-_2361968.jpg), under [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/); its attribution is also shown in the homepage footer.
+
 ## Council information
 
 The site includes dedicated pages for council services, local facilities, councillors, meetings, finance, documents, news and contact information. Council reference documents and downloadable files are linked from the council’s published archive at [hemsworthcouncil.co.uk](https://www.hemsworthcouncil.co.uk); those links remain hosted by the council. Opening hours, fees, meeting dates and notices can change, so confirm time-sensitive information with the council.
